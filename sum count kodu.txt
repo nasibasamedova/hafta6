@@ -1,0 +1,6 @@
+SELECT sum (order_status)
+FROM sales.orders
+WHERE order_status=4
+select count (order_status)
+from sales.orders
+where order_status=4
