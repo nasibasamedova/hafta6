@@ -1,0 +1,4 @@
+select min (list_price)
+from sales.order_items
+select max (list_price)
+from sales.order_items
